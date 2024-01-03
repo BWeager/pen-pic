@@ -66,14 +66,14 @@ const tabsContent = [
                 <p className="ReactJSText1">Additional Modules</p>
                 <div className="ReactJSProgessBarBackground">
                    <div className="ReactJSProgessBarAdditional">
-                        <p className="ReactJSText2">0%</p>
+                        <p className="ReactJSText2">4%</p>
                    </div>
                 </div>
             </div>    
         </div>
         <div className="AlignHorizontal1">
             <p className="ModuleBold">Current Module:</p>
-            <p className="Module1">Styling React Components</p>
+            <p className="Module1">Debugging React Apps</p>
         </div>
         <div className="ModuleBold">
             <p>Completed Modules:</p>
@@ -84,6 +84,7 @@ const tabsContent = [
             <p className="Module2">React Essentials - Components, JSX, Props, State & More</p>
             <p className="Module2">React Essentials - Deep Dive</p>
             <p className="Module2">React Essentials - Practice Project</p>
+            <p className="Module2">Styling React Components</p>
         </div>
 
     </div>

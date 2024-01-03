@@ -250,7 +250,7 @@ body {
   font-weight: bold;
   color: #393939;
   margin-right: 10px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .ReactJSProgessBarBackground {
@@ -275,7 +275,7 @@ body {
 }
 
 .ReactJSProgessBarAdditional {
-  width: 4%;
+  width: 4.3%;
   height: 100%;
   background-color: #0ad4fe;
   border-top-left-radius: 10px;
