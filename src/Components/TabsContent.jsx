@@ -94,17 +94,17 @@ const tabsContent = [
 
     <div id="menucontent1">
         <div className="IBMtraining">
-            <a href="https://yourlearning.ibm.com/credential/CREDLY-68bd59ef-625c-497c-afd2-9e17ddc0cdc4"><img
+            <a href="https://www.credly.com/badges/1128ea17-e2b9-4a9f-8cd0-87b13c4b5d6b/public_url"><img
             src={AgileExplorerImg} alt="Agile Explorer"/></a>
-            <a href="https://yourlearning.ibm.com/credential/CREDLY-677b7701-85b8-445d-8a8c-cd28a8433cf5"><img
+            <a href="https://www.credly.com/badges/07ccdf65-d33f-4255-b5aa-cd1f40febcac/public_url"><img
             src={BeEqualImg} alt="Be Equal Ally"/></a>
-            <a href="https://yourlearning.ibm.com/credential/CREDLY-c4442c43-d990-4274-bd04-901ea30448ba"><img
+            <a href="https://www.credly.com/badges/d990fafb-3d3a-486a-bcf2-d5c8120a010f/public_url"><img
             src={ConsultingWayImg} alt="Consulting Way"/></a>
-            <a href="https://yourlearning.ibm.com/credential/CREDLY-5ff04782-b71d-4485-aebc-57183f1817bd"><img
+            <a href="https://www.credly.com/badges/b5c96e3a-077d-4417-8034-a2bf0520799a/public_url"><img
             src={QuantumConversationsImg} alt="Quantum Conversations"/></a>
-            <a href="https://yourlearning.ibm.com/credential/CREDLY-67ad391f-1fe1-469e-aaa8-a709e61b8cc0"><img
+            <a href="https://www.credly.com/badges/058f1b60-d322-444c-9f30-7440aa43b93c/public_url"><img
             src={ThinkLikeHackerImg} alt="Think Like a Hacker Credential"/></a>
-            <a href="https://yourlearning.ibm.com/credential/CREDLY-a359c94b-c069-4274-9e05-498560b387b3"><img
+            <a href="https://www.credly.com/badges/3fff12f7-5f04-4f45-99e2-c973d8b1fa9c/public_url"><img
             src={TrustworthyAIImg} alt="Trustworthy AI Credential"/></a>
         </div>
     </div>
