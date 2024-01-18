@@ -9,8 +9,8 @@ export default function Header() {
     return(
         <>
             <div id="header">
-                    <img className="profileimg" src={ProfileImage} alt="Profile Image"/>
-                    <h1 className="h1">Ben Weager</h1>
+                    <img src={ProfileImage} alt="Profile Image"/>
+                    <h1>Ben Weager</h1>
             </div>  
             <div id="iconsbanner">
                     <img src={SlackIcon} alt="Slack Icon"/>

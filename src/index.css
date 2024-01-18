@@ -22,7 +22,7 @@ body {
   margin-bottom: 10px auto;
 }
 
-.profileimg {
+#header img {
   width: 7rem;
   height: 7rem;
   object-fit: contain;
@@ -32,7 +32,7 @@ body {
   border: 5px solid #393939;
 }
 
-.h1 {
+#header h1 {
   font-size: 3rem;
   text-shadow: 0px 3px #393939;
 }
@@ -238,7 +238,7 @@ body {
 }
 
 .ReactJSText1 {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color: #e1eeeb;
   margin-left: 25px;
   font-weight: bold;
@@ -246,7 +246,7 @@ body {
 }
 
 .ReactJSText2 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #393939;
   margin-right: 10px;
@@ -255,7 +255,7 @@ body {
 
 .ReactJSProgessBarBackground {
   width: 90%;
-  height: 30px;
+  height: 40px;
   background-color: #e1eeeb;
   border-radius: 10px;
   margin-bottom: 10%;
@@ -264,24 +264,14 @@ body {
   align-items: center;
 }
 
-.ReactJSProgessBarEssentials {
-  width: 100%;
+.ReactJSProgessBar {
+  width: 65%;
   height: 100%;
   background-color: #0ad4fe;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: right;
-}
-
-.ReactJSProgessBarAdditional {
-  width: 4.3%;
-  height: 100%;
-  background-color: #0ad4fe;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  display: flex;
-  align-items: center;
 }
 
 .AlignHorizontal1 {
@@ -307,8 +297,7 @@ body {
 
 .Module2 {
   font-size: 0.8rem;
-  padding-left: 25px;
-  margin-top: 5px;
+  margin-left: 25px;
 }
 
 .ModuleBold {

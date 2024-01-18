@@ -1,4 +1,5 @@
 import "../index.css"
+import { modules } from './Modules.jsx'
 import LoucollImg from "../Images/Loucoll_Image.jpg"
 import BudapestImg from "../Images/Budapest_Image.png"
 import RussiaImg from "../Images/Russia_Image.jpg"
@@ -10,8 +11,7 @@ import ThinkLikeHackerImg from "../Images/ThinkLikeHacker_Img.png"
 import TrustworthyAIImg from "../Images/TrustworthyAI_Img.png"
 import ReactJSImg from "../Images/ReactJS_IMG.jpg"
 
-const tabsContent = [
-
+const tabsContent = [ 
     /* Content for the "About me" section */
     <div id="menucontent1">
     
@@ -57,34 +57,23 @@ const tabsContent = [
                 src={ReactJSImg} alt="ReactJS Training"/></a>
             </div>
             <div className="ReactJSProgress">
-                <p className="ReactJSText1">Essentials</p>
+                <p className="ReactJSText1">Progress</p>
                 <div className="ReactJSProgessBarBackground">
-                   <div className="ReactJSProgessBarEssentials">
-                        <p className="ReactJSText2">100%</p>
-                   </div>
-                </div>
-                <p className="ReactJSText1">Additional Modules</p>
-                <div className="ReactJSProgessBarBackground">
-                   <div className="ReactJSProgessBarAdditional">
-                        <p className="ReactJSText2">4%</p>
+                   <div className="ReactJSProgessBar">
+                        <p className="ReactJSText2">65%</p>
                    </div>
                 </div>
             </div>    
         </div>
         <div className="AlignHorizontal1">
             <p className="ModuleBold">Current Module:</p>
-            <p className="Module1">Debugging React Apps</p>
+            <p className="Module1">{modules.currentModule}</p>
         </div>
         <div className="ModuleBold">
             <p>Completed Modules:</p>
         </div>
         <div className="AlignHorizontal2">
-            <p className="Module2">Getting Started</p>
-            <p className="Module2">Javascript Refresher</p>
-            <p className="Module2">React Essentials - Components, JSX, Props, State & More</p>
-            <p className="Module2">React Essentials - Deep Dive</p>
-            <p className="Module2">React Essentials - Practice Project</p>
-            <p className="Module2">Styling React Components</p>
+            {modules.completedModules.map(module => <p className="Module2">{module}</p>)}
         </div>
 
     </div>
@@ -110,5 +99,4 @@ const tabsContent = [
         </div>
     </div>
 ];
-
 export default tabsContent
